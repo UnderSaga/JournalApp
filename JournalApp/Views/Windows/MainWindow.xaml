@@ -16,6 +16,8 @@
     <Grid>
         <TextBox Text="{Binding Title, UpdateSourceTrigger=PropertyChanged}"
                  HorizontalAlignment="Center"
-                 VerticalAlignment="Center"/>
+                 VerticalAlignment="Center"
+                 MinWidth="200"
+                 TextAlignment="Center"/>
     </Grid>
 </Window>
